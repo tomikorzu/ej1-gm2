@@ -124,11 +124,29 @@ h1{
 
 .container1{
     width: 50%;
-    height: 100%;
+}
+
+.container1 h2{
+    font-family: "Montserrat", sans-serif;
+    margin: 20px ;
 }
 
 
 
 .container2{
-    width: 50;
+    width: 50%;
 }
+
+.container2 p{
+    font-family: "Montserrat", sans-serif;
+    color: #378dfd;
+}
+
+.more{
+    color: #378dfd;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
