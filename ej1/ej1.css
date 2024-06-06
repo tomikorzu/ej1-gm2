@@ -65,6 +65,11 @@ h1{
     margin: 0 20px;
 }
 
+.nav-link a:hover{
+    color: #37d2fd;
+    transition: .5s;
+}
+
 .links{
     color: #378dfd;
     font-family: "Montserrat", sans-serif;
@@ -291,7 +296,7 @@ img{
 
 .cat-more p{
     color: #378dfd;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .cat-more{
