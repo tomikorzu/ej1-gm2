@@ -109,6 +109,7 @@ h1{
 
 #main{
     width: 100%;
+    height: 800px;
 }
 
 img{
@@ -121,21 +122,25 @@ img{
 
 #category{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-color: #fff;
+}
+
+.cat-section-contain{
+    height: 90%;
+    width: 85%;
     margin: auto;
 }
 
 .cat-container1{
     width: 100%;
-    padding: 0 30px;
     display: flex;
     justify-content:space-between ;
 }
 
 .cat-titulo{
     margin: 0;
-    padding: 25px 35px;
+    padding: 25px 0px;
     display: flex;
     align-items: center;
 }
@@ -162,11 +167,11 @@ img{
     color: #378dfd;
     display: flex;
     align-items: center;
-    padding: 25px 35px;
 }
 
+
 .cat-container2{
-    width: 35%;
+    width: 40%;
     height: 100%;
 }
 
@@ -200,13 +205,13 @@ img{
 
 .cat-img-container{
     margin: auto;
-    width: 100%;
-    height: 50%;
-    margin-bottom: 30px;
+    width: 90%;
+    height: 46.7%;
+    margin: 0 0 30px 0;
 }
 
 .cat-img-container-xl{
-    width: 50%;
+    width: 55%;
     height: 100%;
 }
 
@@ -270,7 +275,7 @@ img{
 .cat-container-xl{
     display: flex;
     justify-content: space-between;
-    height: 50%;
+    height: 40%;
     max-height: 40%;
 }
 
@@ -346,21 +351,21 @@ img{
 .cat-parrafo-xl{
     width: 100%;
     max-height: 100%;
-    height: 40%;
+    height: 60%;
     margin: 0;
     display: flex;
     justify-content: center;
 }
 
 .cat-parrafo-xl p{
-    padding: 0 25px;
+    padding: 10px 25px;
 }
 
 .cat-global-contain{
     display: flex;
     justify-content:space-around;
     height: 70%;
-    padding: 0 30px;
+    width: 100%;
 }
 
 
@@ -373,7 +378,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 #footer .navbar{
