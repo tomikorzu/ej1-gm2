@@ -1,0 +1,19 @@
+body{
+    font-size: 32px;
+  }
+  
+  html{
+    font-size: 16px;
+  }
+
+  a{
+    font-size: 16px ;
+  } 
+  
+  .container{
+    font-size: 2rem
+  }
+
+  .section{
+    font-size: 2em;
+  }

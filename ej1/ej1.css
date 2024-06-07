@@ -56,10 +56,8 @@ a{
     margin: 0;
     list-style: none;
     display: flex;
-}
-
-.nav-link li{
-    margin: 0 20px;
+    gap: 25px;
+    padding: 0;
 }
 
 .links{
@@ -258,7 +256,7 @@ img{
 
 /* ---- Category ---- */
 
-#category{
+.section{
     width: 90%;
     height: 800px;
     background-color: #fff;
@@ -532,10 +530,8 @@ img{
     margin: 0;
     list-style: none;
     display: flex;
-}
-
-.nav-link-ft li{
-    margin: 0 30px;
+    padding: 0;
+    gap: 25px;
 }
 
 .links-ft{
