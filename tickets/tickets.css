@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    background: url(../img/stars.png) top / cover no-repeat #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    background-color: #ffffff20;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 60px;
+}
+
+
+
+
+.active{
+    border-bottom: 2px solid #B773FB;
+    color:#fff;
+    padding: 0 20px 10px 20px;
+}
+
+.disable{
+    color: #ffffff80;
+    padding: 0 20px 10px 20px;
+}
+
+.disable:hover{
+    color: #fff;
+    transition: .1s;
+}
+
+.nav-user{
+    border-radius: 50px;
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+
+.nav-user img{
+    
+    width: 30px;
+    height: 30px;
+}
+
+.nav-user h3{
+    color: #fcfcfc;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
