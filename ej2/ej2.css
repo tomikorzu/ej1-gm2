@@ -167,7 +167,7 @@ h1{
 }
 
 
- img{
+img{
     margin: 20px 0 0 0;
     width: 100%;
     height: 100%;
@@ -176,16 +176,17 @@ h1{
 .lorems{
     padding: 15px 0 30px 0;
     border-bottom: 1px solid #59d6f8;
-    margin-bottom: 20px;
 }
 
 .lorem{
     font-size: 12px;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 10px 0;
 }
 
 .lorem p{
     margin: 0;
+    font-weight: 500;
+    text-align: justify;
 }
 
 
@@ -193,6 +194,187 @@ h1{
 #container2{
 }
 
+.bg{
+    background-color: #fff;
+}
+
+.enlaces-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+.enlaces h2{
+    margin: 0;
+    font-size: 20px;
+    padding: 0 20px 0 0;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.enlaces{
+    display: flex;
+}
+
+.enlaces ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+.enlaces img{
+    width: 27px;
+    height: 27px;
+    margin: 0;
+}
+
+.button{
+    color: #00000080;
+    background-color: #e2dddd;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h3{
+    margin: 0;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+}
+
+.card img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 30%;
+    height: 40%;
+}
+
+.card h4{
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 16px
+}
+
+.margin-3{
+    width: 70%;
+}
+
+.margin-3 h2{
+    margin: 0;
+    padding: 30px 0 0 0;
+}
+
+.inputs-btn{
+    padding: 20px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    padding: 7px 10px;
+    width: 20%;
+    border: 1px solid #00000060;
+    border-radius: 5px;
+}
+
+.name::placeholder{
+    text-align: center;
+}
+
+.comment{
+    padding: 7px 30px;
+    border: 1px solid #00000060;
+    border-radius: 5px;
+}
+
+.comment::placeholder{
+    text-align: center;
+}
+
+.inputs-btn button{
+    padding: 7px 10px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: #378dfd;
+    color: #fff;
+}
+
+.user{
+    background-color: #e2dddd;
+    margin: 0 0 25px 0;
+    border-radius: 5px;
+    display: flex;
+    height: 100px;
+}
+
+.user-name{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name img{
+    width: 45px;
+    height: 45px;
+    padding: 0px 0 0 0;
+    margin: 0;
+}
+
+.user-name p{
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+
+.user-parrafo{
+    padding: 15px 0 0 0;
+}
+
+.user-parrafo p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    padding: 0 5px 0 0;
+    margin: 0;
+}
+
+.rep-min{
+    display: flex;
+    padding: 8px 0 0 0;
+    font-weight: 500;
+}
+
+.rep{
+    font-size: 14px;
+    padding: 0 10px 0 0;
+}
+
+.min{
+    font-size: 13px;
+    color: #37d2fd;
+}
+
+.testimonials{
+    padding: 0 0 50px 0;
+}
 
 /* --- Footer --- */
 
