@@ -73,3 +73,8 @@ a{
     display: flex;
     align-items: center;
 }
+
+.tickets{
+    height: 100vh;
+    background: linear-gradient(135grad, #000, #7905ED, #D7FC6E) 
+}
