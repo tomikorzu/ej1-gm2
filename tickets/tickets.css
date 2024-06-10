@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
-    background: url(../img/stars.png) top / cover no-repeat #000000;
-    
+    background: url(../img/bg-tickets.png) top / cover no-repeat #000000;
+
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-#header{
+#header {
     background-color: #ffffff20;
     height: 60px;
     display: flex;
@@ -19,14 +19,14 @@ a{
     box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-links ul{
+.nav-links ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -36,23 +36,23 @@ a{
 
 
 
-.active{
+.active {
     border-bottom: 2px solid #B773FB;
-    color:#fff;
+    color: #fff;
     padding: 0 20px 10px 20px;
 }
 
-.disable{
+.disable {
     color: #ffffff80;
     padding: 0 20px 10px 20px;
 }
 
-.disable:hover{
+.disable:hover {
     color: #fff;
     transition: .1s;
 }
 
-.nav-user{
+.nav-user {
     border-radius: 50px;
     display: flex;
     gap: 5px;
@@ -60,13 +60,13 @@ a{
     border: 1px solid #fff;
 }
 
-.nav-user img{
-    
+.nav-user img {
+
     width: 30px;
     height: 30px;
 }
 
-.nav-user h3{
+.nav-user h3 {
     color: #fcfcfc;
     font-weight: 500;
     font-size: 16px;
@@ -75,14 +75,14 @@ a{
     align-items: center;
 }
 
-.tickets{
+.tickets {
     width: 70%;
     margin: auto;
-    
+
 }
 
 
-h1{
+h1 {
     margin: 0;
     padding: 50px 0 0 0;
     font-weight: 500;
@@ -90,19 +90,19 @@ h1{
     color: #fff;
 }
 
-.container1{
+.container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container1 p{
+.container1 p {
     color: #fff;
     margin: 0;
     padding: 15px 0 0 0;
 }
 
-.container1 a{
+.container1 a {
     background-color: #D7FC6E;
     margin: 20px 0 0 0;
     padding: 10px 10px;
@@ -111,28 +111,28 @@ h1{
     align-items: center;
 }
 
-.container1 a p{
+.container1 a p {
     color: #070707;
     padding: 0 10px 0 5px;
 }
 
-.container1 a img{
+.container1 a img {
     width: 25px;
     height: 25px;
     padding: 0 5px 0 10px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.row1{
+.row1 {
     display: flex;
 }
 
-.box{
+.box {
     border-radius: 5px;
     margin: 10px 10px;
     width: 450px;
@@ -143,16 +143,38 @@ h1{
     justify-content: space-between;
 }
 
+.box::before {
+    content: "";
+    width: 20px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    position: relative;
+    border-radius: 0 20px 20px 0;
+}
+
+.box::after {
+    content: "";
+    width: 20px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    position: relative;
+    border-radius: 20px 0 0 20px;
+}
 
 
-.curva{
+
+.curva {
     background-color: #000;
     border-radius: 0 20px 20px 0;
     height: 40px;
     width: 20px;
 }
 
-.curva2{
+.curva2 {
     background-color: #000;
     border-radius: 20px 0px 0px 20px;
     height: 40px;
