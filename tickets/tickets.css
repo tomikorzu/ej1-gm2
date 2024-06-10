@@ -4,6 +4,7 @@ body{
     margin: 0;
     font-family: "Work Sans", sans-serif;
     background: url(../img/stars.png) top / cover no-repeat #000000;
+    
 }
 
 a{
@@ -75,6 +76,85 @@ a{
 }
 
 .tickets{
-    height: 100vh;
-    background: linear-gradient(135grad, #000, #7905ED, #D7FC6E) 
+    width: 70%;
+    margin: auto;
+    
+}
+
+
+h1{
+    margin: 0;
+    padding: 50px 0 0 0;
+    font-weight: 500;
+    font-size: 50px;
+    color: #fff;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 p{
+    color: #fff;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+.container1 a{
+    background-color: #D7FC6E;
+    margin: 20px 0 0 0;
+    padding: 10px 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.container1 a p{
+    color: #070707;
+    padding: 0 10px 0 5px;
+}
+
+.container1 a img{
+    width: 25px;
+    height: 25px;
+    padding: 0 5px 0 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1{
+    display: flex;
+}
+
+.box{
+    border-radius: 5px;
+    margin: 10px 10px;
+    width: 450px;
+    height: 150px;
+    background: linear-gradient(to right, #adadad, #7a7a7a);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.curva{
+    background-color: #000;
+    border-radius: 0 20px 20px 0;
+    height: 40px;
+    width: 20px;
+}
+
+.curva2{
+    background-color: #000;
+    border-radius: 20px 0px 0px 20px;
+    height: 40px;
+    width: 20px;
 }
