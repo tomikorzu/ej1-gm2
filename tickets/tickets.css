@@ -3,9 +3,10 @@
 body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
-    background: url(../img/bg-tickets.png) top / cover no-repeat #000000;
+    background: url(../img/Diseño\ sin\ título.png) center / cover no-repeat, fixed;
 
 }
+
 
 a {
     text-decoration: none;
