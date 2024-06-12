@@ -34,9 +34,6 @@ a {
     gap: 60px;
 }
 
-
-
-
 .active {
     border-bottom: 2px solid #B773FB;
     color: #fff;
@@ -78,7 +75,7 @@ a {
 
 
 .tickets {
-    width: 85%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -138,15 +135,15 @@ h1 {
 }
 
 .box-container {
-    width: 400px;
-    height: 150px;
+    width: 500px;
+    height: 160px;
     display: flex;
     margin: 20px 0 0 0;
 }
 .col1{
     display: flex;
     flex-direction: column;
-    width: 7.5%;
+    width: 6%;
 }
 .col2{
     width: 85%;
@@ -154,6 +151,10 @@ h1 {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 10px;
+    gap: 20px;
 }
 
 
@@ -231,3 +232,20 @@ h1 {
 }
 
 
+
+.col2 h3, .col2 p{
+    margin: 0;
+}
+
+
+.calendar{
+    display: flex;
+    gap: 5px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffffff;
+}
