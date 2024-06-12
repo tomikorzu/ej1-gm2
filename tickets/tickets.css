@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
     background: url(../img/Diseño\ sin\ título.png) center / cover no-repeat, fixed;
-
+    height: 100vh;
 }
 
 
@@ -79,13 +79,13 @@ a {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }   
 
 
 h1 {
     margin: 0;
-    padding: 50px 0 0 0;
+    padding: 40px 0 0 0;
     font-weight: 500;
     font-size: 50px;
     color: #fff;
@@ -136,7 +136,7 @@ h1 {
 
 .box-container {
     width: 500px;
-    height: 160px;
+    height: 150px;
     display: flex;
     margin: 20px 0 0 0;
 }
@@ -232,7 +232,6 @@ h1 {
 }
 
 
-
 .col2 h3, .col2 p{
     margin: 0;
 }
@@ -248,4 +247,22 @@ h1 {
     flex-direction: column;
     gap: 10px;
     color: #ffffff;
+}
+
+footer{
+    padding: 40px 0 20px 0;
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+
+footer a{
+    color: #fff;
+    font-weight: 400;
+    padding: 0px 30px;
+    
+}
+
+.a1{
+    border-right: 1px solid #fff;
 }
